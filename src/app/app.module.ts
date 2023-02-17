@@ -8,12 +8,18 @@ import { FooterComponent } from './footer/footer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule } from '@angular/material/button';
 import { AppRoutingModule } from './app-routing.module';
+import { UserComponent } from './user/user.component';
+import { BooksComponent } from './books/books.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
+    UserComponent,
+    BooksComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
